@@ -6,7 +6,7 @@
     "description": "Crie sua lista de afazeres"
   },
   "paths": {
-    "/todo": {
+    "/api/todo": {
       "get": {
         "operationId": "todo_list",
         "tags": ["todo"],
@@ -63,7 +63,7 @@
         }
       }
     },
-    "/todo/{id}": {
+    "/api/todo/{id}": {
       "get": {
         "operationId": "todo_retrieve",
         "parameters": [
